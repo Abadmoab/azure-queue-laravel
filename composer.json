@@ -1,5 +1,5 @@
 {
-  "name": "squigg/azure-queue-laravel",
+  "name": "abadmoab/azure-queue-laravel",
   "description": "Laravel Queue Driver for Microsoft Azure Storage Queue",
   "keywords": [
     "laravel",
@@ -13,6 +13,10 @@
     {
       "name": "Steve Strugnell",
       "email": "github@squigg.co.uk"
+    },
+    {
+      "name": "Abdullah Abdelqader",
+      "email": "abadmoab@gmail.com"
     }
   ],
   "require": {
