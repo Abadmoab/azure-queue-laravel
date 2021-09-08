@@ -41,48 +41,9 @@ composer require guzzlehttp/guzzle:"7.0.1 as 6.5.5"
 ```
 #### Installation
 Require this package in your `composer.json`. The version numbers will follow Laravel.
-
-#### Laravel 8.x
-    "squigg/azure-queue-laravel": "^8.0"
-    composer require squigg/azure-queue-laravel:^8.0
-#### Laravel 7.x
-    "squigg/azure-queue-laravel": "^7.0"
-    composer require squigg/azure-queue-laravel:^7.0
-#### Laravel 6.x
-    "squigg/azure-queue-laravel": "^6.0"
-    composer require squigg/azure-queue-laravel:^6.0
-#### Laravel 5.8.x
-    "squigg/azure-queue-laravel": "5.8.*"
-    composer require squigg/azure-queue-laravel:5.8.*
-#### Laravel 5.7.x
-    "squigg/azure-queue-laravel": "5.7.*"
-    composer require squigg/azure-queue-laravel:5.7.*
-#### Laravel 5.6.x
-    "squigg/azure-queue-laravel": "5.6.*"
-    composer require squigg/azure-queue-laravel:5.6.*
-#### Laravel 5.5.x
-    "squigg/azure-queue-laravel": "5.5.*"
-    composer require squigg/azure-queue-laravel:5.5.*
-#### Laravel 5.4.x
-    "squigg/azure-queue-laravel": "5.4.*"
-    composer require squigg/azure-queue-laravel:5.4.*
-#### Laravel 5.3.x
-    "squigg/azure-queue-laravel": "5.3.*"
-    composer require squigg/azure-queue-laravel:5.3.*
-#### Laravel 5.2.x
-	"squigg/azure-queue-laravel": "5.2.*"
-	composer require squigg/azure-queue-laravel:5.2.* 
-
-##### For versions 5.3 and older only
-Add the following pear repository in your `composer.json` file required for the Microsoft Azure SDK
-(v5.4+ uses the `microsoft/azure-storage` package instead, and v5.6+ uses `microsoft/azure-storage-queue`):
-  
-    "repositories": [
-        {
-            "type": "pear",
-            "url": "http://pear.php.net"
-        }
-    ],
+```
+composer require abadmoab/azure-queue-laravel
+```
     
 Update Composer dependencies
 
